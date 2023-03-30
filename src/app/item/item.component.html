@@ -1,0 +1,43 @@
+<div class="d-flex justify-content-between">
+  <h4>
+    Add new Customer
+  </h4>
+ <button mat-button (click)="onClose()">
+    close
+ </button>
+</div>
+<div>
+<form (ngSubmit)="submit()" autocomplete="off">
+  <div class="form-group">
+    <label>First Name</label><br>
+    <input type="text" name="firstname" class="form-control" ngModel >
+  </div>
+  <pre></pre>
+  <div class="form-group">
+    <label>last Name</label><br>
+    <input type="text" name="lastname" class="form-control" ngModel>
+  </div>
+  <pre></pre>
+  <div class="form-group">
+    <label>Address</label><br>
+    <input type="text" name="address" class="form-control" ngModel>
+  </div>
+  <pre></pre>
+  <div class="form-group">
+    <label>City</label><br>
+    <input type="text" name="city" class="form-control" ngModel>
+  </div>
+  <pre></pre>
+  <div class="form-group">
+    <label>State</label><br>
+    <input type="text" name="state" class="form-control" ngModel>
+  </div>
+  <pre></pre>
+  <div class="form-group">
+    <label>Order total</label><br>
+    <input type="text" name="order total" class="form-control" ngModel>
+  </div>
+  <pre></pre>
+<button class="btn-primary" type="button">submit</button>
+</form>
+</div>
